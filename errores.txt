@@ -1,0 +1,59 @@
+2023-05-29T10:59:44.202Z PizzaService->getAll error: Login failed for user 'Pizzas'.
+2023-05-29T10:59:46.499Z PizzaService->getAll error: Login failed for user 'Pizzas'.
+2023-05-29T10:59:47.905Z PizzaService->getAll error: Login failed for user 'Pizzas'.
+2023-05-29T10:59:48.890Z PizzaService->getAll error: Login failed for user 'Pizzas'.
+2023-05-29T12:09:31.183Z  PizzaService->getById error: Incorrect syntax near '$'.
+2023-05-29T12:09:32.471Z  PizzaService->getById error: Incorrect syntax near '$'.
+2023-05-29T12:16:07.247Z  IngredientesXPizzasService->getByIdPizza error: The objects "Ingredientes" and "Ingredientes" in the FROM clause have the same exposed names. Use correlation names to distinguish them.
+2023-05-29T12:16:11.461Z  IngredientesXPizzasService->getByIdPizza error: The objects "Ingredientes" and "Ingredientes" in the FROM clause have the same exposed names. Use correlation names to distinguish them.
+2023-05-29T12:19:20.724Z  IngredientesXPizzasService->getByIdPizza error: The objects "Ingredientes" and "Ingredientes" in the FROM clause have the same exposed names. Use correlation names to distinguish them.
+2023-05-29T12:19:21.763Z  IngredientesXPizzasService->getByIdPizza error: The objects "Ingredientes" and "Ingredientes" in the FROM clause have the same exposed names. Use correlation names to distinguish them.
+2023-05-29T12:19:35.347Z  IngredientesXPizzasService->getByIdPizza error: incluirIngredientes is not defined
+2023-05-29T12:20:06.971Z  IngredientesXPizzasService->getByIdPizza error: incluirIngredientes is not defined
+2023-05-29T12:22:02.849Z  IngredientesXPizzasService->getByIdPizza error: incluirIngredientes is not defined
+2023-05-29T12:27:27.892Z  PizzaService->getById error: IngredientesXPizzasService is not defined
+2023-05-29T12:27:35.247Z  PizzaService->getById error: IngredientesXPizzasService is not defined
+2023-05-29T12:28:01.001Z  PizzaService->getById error: IngredientesXPizzasService is not defined
+2023-05-29T12:29:10.024Z  PizzaService->getById error: IngredientesXPizzasService is not defined
+2023-05-29T12:33:26.114Z  PizzaService->getById error: svc.getByIdPizza is not a function
+2023-05-29T12:33:32.611Z  PizzaService->getById error: svc.getByIdPizza is not a function
+2023-05-29T12:35:32.914Z  PizzaService->getById error: svc.getByIdPizza is not a function
+2023-05-29T12:36:20.560Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T10:59:03.778Z  IngredientesXPizzasService->getAll error: Login failed for user 'Pizzas'.
+2023-06-05T11:02:59.916Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:03:14.707Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:03:20.145Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:03:25.106Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:04:00.524Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:04:56.234Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:04:56.238Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:05:10.687Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:05:37.380Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:05:40.779Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:05:43.346Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:05:46.059Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:05:48.853Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:05:51.540Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:05:54.112Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:05:57.855Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:06:16.297Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:06:25.560Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:06:28.146Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:06:30.504Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:06:40.801Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:07:24.420Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:08:13.459Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:08:49.937Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:08:55.065Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:10:34.832Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:10:56.185Z  IngredientesXPizzasService->getById error: Invalid object name 'Pizza'.
+2023-06-05T11:11:52.883Z  IngredientesXPizzasService->getById error: Invalid object name 'Pizza'.
+2023-06-05T11:13:04.492Z  IngredientesXPizzasService->getById error: Invalid object name 'Pizza'.
+2023-06-05T11:13:21.286Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:14:16.399Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T11:14:35.283Z  IngredientesXPizzasService->getById error: incluirIngredientes is not defined
+2023-06-05T12:06:44.613Z  IngredienteService->update error: pizza is not defined
+2023-06-05T12:07:04.232Z  IngredienteService->update error: pizza is not defined
+2023-06-05T12:07:09.676Z  IngredienteService->update error: pizza is not defined
+2023-06-05T12:09:07.098Z  IngredienteService->update error: pizza is not defined
+2023-06-05T12:09:51.898Z  IngredienteService->update error: pizza is not defined

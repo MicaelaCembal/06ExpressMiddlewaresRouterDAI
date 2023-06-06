@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "1728d0d6-5073-4b3e-8de0-2b6467f96cdc",
+		"name": "DAI EXPRESS NODE API INGREDIENTES",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26223851"
+	},
+	"item": [
+		{
+			"name": "Ingredientes - GetAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/ingredientes/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"ingredientes",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ingredientes - GetById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/ingredientes/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"ingredientes",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ingredientes - Create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "64e3acf0-6113-4d5d-85e8-c6d8c12ddbdc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Nombre\": \"Morron\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/ingredientes/insert",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"ingredientes",
+						"insert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ingredientes - Update",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "token",
+						"value": "64e3acf0-6113-4d5d-85e8-c6d8c12ddbdc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\": 5,\r\n    \"Nombre\": \"Morron Verde\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/ingredientes/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"ingredientes",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ingredientes - DeleteById",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "token",
+						"value": "64e3acf0-6113-4d5d-85e8-c6d8c12ddbdc",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/ingredientes/16",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"ingredientes",
+						"16"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

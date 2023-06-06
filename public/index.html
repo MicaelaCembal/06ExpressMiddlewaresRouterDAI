@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type="text/css" href="estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Rubik:wght@500;700;800&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="pb-5" >  </div>
+
+<div class="centrar">
+
+    <h1> ¡AVERIGUA SOBRE LAS PIZZAS DE POLSHETA!</h1>
+    <center>
+    <h5> Un ejemplo a seguir, Agustina & Micaela</h5>
+    </center>
+    <div class="pb-5" >  </div>
+  
+    <center>
+        <div class="form-group pb-3">
+            <input type="text" class="form-control editoInput" id="idPizza" name="idPizza" placeholder="Ingrese id Pizza: " autocomplete= "off" >
+        </div>
+
+    
+        <button class="boton" onclick= "Delete(idPizza.value)" >Delete</button>
+
+     
+        <button class="boton" onclick= "GetById(idPizza.value)">Get By Id</button>
+
+        <div class="pb-3" >  </div>
+        <div id="contenedor"> </div> 
+       
+    </center>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-6">
+                <div class="pb-5" >  </div>
+                <div class="form-group pb-3">
+                    <input type="text" class="form-control editoInput" id="idUp" name="idPizza" placeholder="Ingrese id Pizza: " autocomplete= "off" >
+                </div>
+                <div class="form-group pb-3">
+                    <input type="text" class="form-control editoInput" id="nombreUp" name="nombrePizza" placeholder="Ingrese Nombre Pizza: " autocomplete= "off" >
+                </div>
+                <div class="form-group pb-3">
+                    <input type="text" class="form-control editoInput" id="libreGlutenUp" name="libreGlutenPizza" placeholder="Ingrese Libre Gluten Pizza (1 / 0): " autocomplete= "off" >
+                </div>
+                <div class="form-group pb-3">
+                    <input type="text" class="form-control editoInput" id="importeUp" name="importePizza" placeholder="Ingrese importe Pizza: " autocomplete= "off" >
+                </div>
+                <div class="form-group pb-3">
+                    <input type="text" class="form-control editoInput" id="descUp" name="descPizza" placeholder="Ingrese Descripción Pizza: " autocomplete= "off" >
+                </div>
+            <center>
+                <button class="boton" onclick= "Update()">Update</button>
+            </center>
+                <div id="contenedorUp" class=""> </div> 
+        
+            </div>
+            <div class="col-6">
+
+                <div class="pb-5" >  </div>
+                <div class="form-group pb-3">
+                    <input type="text" class="form-control editoInput" id="idIn" name="idPizza" placeholder="Ingrese id Pizza: " autocomplete= "off" >
+                </div>
+                <div class="form-group pb-3">
+                    <input type="text" class="form-control editoInput" id="nombreIn" name="nombrePizza" placeholder="Ingrese Nombre Pizza: " autocomplete= "off" >
+                </div>
+                <div class="form-group pb-3">
+                    <input type="text" class="form-control editoInput" id="libreGlutenIn" name="libreGlutenPizza" placeholder="Ingrese Libre Gluten Pizza (1 / 0): " autocomplete= "off" >
+                </div>
+                <div class="form-group pb-3">
+                    <input type="text" class="form-control editoInput" id="importeIn" name="importePizza" placeholder="Ingrese importe Pizza: " autocomplete= "off" >
+                </div>
+                <div class="form-group pb-3">
+                    <input type="text" class="form-control editoInput" id="descIn" name="descPizza" placeholder="Ingrese Descripción Pizza: " autocomplete= "off" >
+                </div>
+            <center>
+                <button class="boton" onclick= "Insert()">Insert</button>
+            </center>
+                <div id="contenedorIn" class=""> </div> 
+        
+            </div>
+        
+        </div>
+
+    </div>
+       
+
+       
+        <center>
+        <div class="pb-5" >  </div>
+        <button class="boton" onclick= "GetAll()">Get All</button>
+        <div id="contenedorAll" class="editoTable"> </div> 
+</div>
+
+</center>
+    <script src="script.js"></script>
+</body>
+</html>
+<!--http://localhost:3000/index.html-->
