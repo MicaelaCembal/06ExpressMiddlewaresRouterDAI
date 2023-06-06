@@ -1,13 +1,13 @@
 {
 	"info": {
-		"_postman_id": "e44966be-f6ed-4bc9-9272-2649f1b66870",
-		"name": "DAI EXPRESS NODE API PIZZAXINGREDIENTES",
+		"_postman_id": "a8c61ed8-0855-4772-be40-004ee8981197",
+		"name": "DAI EXPRESS NODE API UNIDADES",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "26347644"
 	},
 	"item": [
 		{
-			"name": "IngredientesPorPizzas - GetById Copy",
+			"name": "Unidades - GetAll",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -18,7 +18,7 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:3000/api/ingredientesXpizzas/1",
+					"raw": "http://localhost:3000/api/unidades",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -26,15 +26,14 @@
 					"port": "3000",
 					"path": [
 						"api",
-						"ingredientesXpizzas",
-						"1"
+						"unidades"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "IngredientesPorPizzas - GetAll Copy",
+			"name": "Unidades - GetById",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -45,7 +44,7 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:3000/api/ingredientesXpizzas/",
+					"raw": "http://localhost:3000/api/unidades/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -53,8 +52,15 @@
 					"port": "3000",
 					"path": [
 						"api",
-						"ingredientesXpizzas",
-						""
+						"unidades",
+						"1"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
 					]
 				}
 			},
